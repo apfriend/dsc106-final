@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Final Project</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Paytone+One&display=swap" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/sankey.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="utils.js"></script>
+</head>
+
+<body onload=init()>
+    <h1>Final Project</h1>
+    <section id=introduction>
+        <h2>Introduction</h2>
+        <p id=introduction-text>
+            Humans are now made of plastic. Well maybe not entirely, but you almost certainly have some plastic in your body. Since it's invention, plastic has managed to be both the saving grace and destructive bane of our very life.
+            <br>
+            <br>
+            Plastics have given us many countless utilities from cheaper and less expensive consumer goods from plastic containers and trash bags to the high-tech gadget you're currently reading this on. Plastics have also provided a convenient and easy way for our goods to stay sterilized, from our food to medical equipment.
+            <br>
+            <br>
+            This miracle product has not come without its pitfalls however. Due to the increasing usage of the product, and the fact that plastic doesn't biodegrade, we as a species are seeing the beginning of a crisis.
+            <br>
+            <br>
+            Just like with greenhouse emissions, we have had too much of a good thing. Plastic waste is no simple process however, and due to how far removed most people in developed nations are form the end of life cycle of our waste, it can be quite hard to truly grasp the magnitude of waste we produce, and just how expansive the effects of this pollution are.
+            <br>
+            <br>
+            This webpage was created with the goal of educating those of us who are far removed from waste management. Those who may not have a solid grasp of what happens to our trash, where it goes, and how those processes affect us. This is meant to be a simple visualization to inform the average person on the current state of global waste management, and what they can individually do to make a difference.
+        </p>
+
+    </section>
+
+    <section id=history>
+        <h2>
+            History of Plastic
+        </h2>
+        <section width='75%' id="history-charts" class="chart-parent--container">
+            <section id="recycle-line" class="chart--container"></section>
+            <section id="recycle-time" class="chart--container"></section>
+            <section id="historic-sankey" class="chart--container"></section>
+        </section>
+    </section>
+
+    <section id=today>
+        <h2>
+            Plastic Today
+        </h2>
+        <section width='75%' id="today-charts" class="chart-parent--container">
+            <section id="scatter01" class="chart--container"></section>
+        </section>
+    </section>
+
+    <section id=action>
+        <h2>
+            What Can <b><u>YOU</u></b> Do?
+        </h2>
+    </section>
+</body>
+
+</html>
